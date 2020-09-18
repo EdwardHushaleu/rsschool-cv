@@ -1,5 +1,6 @@
-#Eduard Hushaleu
-##Contacts
+# Eduard Hushaleu
+## Contacts
+- Located in Minsk, Belarus
 - E-mail: t6869@yandex.ru, 2779522@gmail.com;
 - Tel.: +375292779522;
 ## About me 
@@ -16,5 +17,5 @@ GitHub: [Example of work :)](https://github.com/EdwardHushaleu "Example of work 
 My portfolio: [Click me :)](https://edwardhushaleu.github.io/ "Click me :)")
 ## Education
 SKILLUP courses : Introduction to HTML,CSS, JS, Angular
-##Languages
+## Languages
 Level of English - A1
