@@ -1,1 +1,1 @@
-# rsschool-cv
+https://HushalewEdward.github.io/rsschool-cv/cv
