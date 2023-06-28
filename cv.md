@@ -1,7 +1,11 @@
 # **Hushalew Edward**
+
 ***
+
 ## **Junior Front-End Developer**
+
 ***
+
 ## **My contacts:**
 + **Discord:** edward_hushaleu
 + **E-mail:** 2779522@gmail.com
@@ -14,13 +18,13 @@ I really like the directions related to technology and software. I like to learn
 
 ***
 
- ## **Skills:**
- + HTML
- + CSS/SCSS
- + JS Basic
- + React Basic
+## **Skills:**
++ HTML
++ CSS/SCSS
++ JS Basic
++ React Basic
 
- ***
+***
  
- ## **Languages:**
- + A2 - English language
+## **Languages:**
++ A2 - English language
