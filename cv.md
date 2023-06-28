@@ -19,6 +19,8 @@ I really like the directions related to technology and software. I like to learn
  + CSS/SCSS
  + JS Basic
  + React Basic
+
  ***
+ 
  ## **Languages:**
  + A2 - English language
