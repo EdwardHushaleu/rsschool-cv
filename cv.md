@@ -25,6 +25,16 @@ I really like the directions related to technology and software. I like to learn
 + React Basic
 
 ***
+
+## **Code example**
+GitHub: [Example of work :)](https://github.com/EdwardHushaleu "Example of work :)")
+
+***
+
+## **Experience** 
+My portfolio: [Click me :)](https://edwardhushaleu.github.io/ "Click me :)")
+
+***
  
 ## **Languages:**
 + A2 - English language
