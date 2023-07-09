@@ -1,12 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Page Title</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-    <body>
-        <h1>This is a Heading</h1>
-        <p>This is a paragraph.</p>
-    </body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Гушелев">
+		<meta name="description" content="Some description">
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Portfolio</title>
+	</head>
+	<body>
+        <header class="header">
+            <div class="navigation">
+                    <nav class="nav">
+                        <ul class="ul1">
+                            <li>
+                                <a class="link_nav" href="#test2">Greeting</a>
+                            </li>
+                            <li>
+                                <a class="link_nav" href="#test3">About Me</a>
+                            </li>
+                        </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="s-welcome">
+            <div class="s-welcome_title">
+                <h1 id="test2">Hi, my name is Edward.</h1>
+                <p class="s-welcome_depiction">
+                  This is my portfolio. Here I will tell you a little about myself and show examples of work.
+              </p>
+            </div>
+            <img class="my_photo" src="./assets/photo.png" alt="myphoto">  
+        </section>
+        <section class="s-info">
+            <h2 class="s-info_title" id="test3">About me</h2>
+            <p class="s-info_depiction">I am a beginner programmer. I want to develop in this direction and learn new things.I’m looking for a Junior Front-End Developer position in IT company.</p>
+            <ul class="info">
+                <li class="info_about_me">
+                  <h3 class="h3">Contacts</h3>
+                  <ul class="information">
+                        <li>Located in Minsk, Belarus</li>
+                        <li>E-mail:
+                            <a href="mailto:2779522@gmail.com">2779522@gmail.com</a>
+                      </li>
+                        <li>Tel.:
+                        <a href="tel:+375292779522">+375292779522</a>
+                      </li>
+                  </ul>
+                </li>
+                <li class="info_about_me">
+                  <h3 class="h3">Skills</h3>
+                  <ul class="information">
+                        <li>HTML/CSS/JS</li>
+                        <li>SCSS, SASS</li>
+                        <li>Angular</li>
+                        <li>Gulp</li>
+                        <li>GitHub</li>
+                  </ul>		
+                </li>
+                <li class="info_about_me">
+                  <h3 class="h3">Code example</h3>
+                  <p>GitHub:
+                      <a class="examp_cod" href="https://github.com/EdwardHushaleu">My code examples</a>
+                  </p> 
+                </li>
+                <li class="info_about_me">
+                    <h3 class="h3">Experience</h3>
+                    <p>My portfolio:
+                      <a class="examp_cod" href="https://edwardhushaleu.github.io/">Example of work</a>
+                  </p>
+                </li>
+                <li class="info_about_me">
+                    <h3 class="h3">Education</h3>
+                    <p>SKILLUP courses : Introduction to HTML,CSS, JS, Angular</p>
+                </li>
+                <li class="info_about_me">
+                    <h3 class="h3">Languages</h3>
+                    <p>Level of English - A1</p>
+                </li>
+                <li class="info_about_me">
+                    <h3 class="h3">Example code</h3>
+                    <code class="code">
+                        <span class="code_comment">// Function Declaration</span><br>
+                        <span class="code_function">function</span> sum(a, b) {<br>
+                          &nbsp;&nbsp;<span class="code_function">return</span> a + b;<br>
+                        }<br>
+                        <br>
+                        <span class="code_comment">// Function Expression</span><br>
+                        <span class="code_function">const</span> sum = <span class="code_function">function</span>(a, b) {<br>
+                          &nbsp;&nbsp;<span class="code_function">return</span> a + b;<br>
+                        }
+                    </code>
+                </li>
+            </ul>
+        </section>
+        <footer class="footer">
+            <p class="footer_logo">
+              <a href="https://rs.school/js/"><img class="footer_logo" src="assets/logo_rs_text.svg" alt="rs school logo"></a>
+            </p>
+            <p class="footer_cop">©EdwardHushaleu, 2023</p>
+            <p class="footer_logo">
+              <a href="https://github.com/EdwardHushaleu"><img class="footer_logo" src="assets/ghlogo.png" alt="github logo"></a>
+            </p>
+          </footer>
+	</body>
 </html>
