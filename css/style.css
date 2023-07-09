@@ -10,3 +10,188 @@ body{
  font-size: 0;
  padding: 25px;
 }
+
+.ul1 li{
+    display: inline-block;
+    text-transform:uppercase;
+    font-size: 15px;
+    margin: 0 15px;
+}
+
+.ul1{
+ text-align: center;
+}
+
+.link_nav {
+ display: inline-block;
+ color:#fff;
+}
+
+.ul1 a::after {
+ content: "";
+ display: block;
+ height: 3px;
+ width: 0;
+ background-color: #07f2ff;
+ margin-top: 10px;
+}
+
+.ul1 a:hover::after {
+ width:100%;
+}
+
+.ul1 a:hover{
+ color:#07f2ff;
+}
+
+   /* Секция */
+
+.s-welcome{
+ position: relative;
+ background: url(../assets/backgroud.jpg);
+ background-repeat: no-repeat;
+    background-size:cover;
+    border-top: 1px solid #393939;
+}
+
+.s-welcome_title{
+ padding: 300px 0 200px;
+}
+
+.my_photo{
+ position: absolute;
+ max-width: 300px;
+ bottom: 0;
+ left: calc(50% - 150px);
+ transform: translate(0, 50%);
+}
+
+h1{
+    text-align:center;
+    font-size: 55px;
+    color:#fff;
+}
+
+.s-welcome_depiction{
+    text-align:center;
+    color:#fff;
+}
+    /*section2*/
+
+.s-info{
+   background-color: #fffcf5;
+ padding-top: 200px;
+}
+
+.s-info_title {
+    text-align: center;
+    font-size: 35px;
+    color:#000;
+}
+
+.s-info_depiction{
+   text-align:center;
+   color: #000;
+ max-width: 800px;
+ margin: 0 auto;
+}
+
+.info{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ padding: 0;
+ max-width: 1050px;
+ margin: 0 auto;
+ margin-top: 100px;
+}
+.information li{
+ margin: 10px 0;
+ display: block;
+}
+
+.info_about_me{
+ list-style-type:none;
+ border: 2px solid #dfdcd5;
+ flex-basis:30%;
+ margin: 30px 0;
+ text-align: center;
+ padding-top: 20px;
+ padding: 25px;
+}
+
+.examp_cod{
+color: rgb(228, 38, 38);
+font-size: 25px;
+text-decoration: underline;
+}
+
+code {
+    font-size: 10px;
+  }
+  
+  .code_comment {
+    color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .code_function {
+    color:darkmagenta
+  }
+
+.h3{
+ text-align:center;
+ margin:25px; 
+}
+
+.info li:hover h3{
+ color: #07f2ff; 
+}
+
+.info li:hover {
+ border-color: #07f2ff;
+}
+
+.footer{
+ background:#1a1a1a;
+ padding:20px;
+ text-align:center;
+}
+
+.pfooter{
+ color:#fff; 
+}
+
+@media screen and (max-width:992px){
+ .info{
+   justify-content: center;
+   padding: 0 20px;
+ }
+
+ .info li{
+   flex-basis: 45%;
+   margin: 10px 10px;
+   padding-top: 20px;
+ }
+
+ .section3 {
+   padding: 50px 0 100px;
+ }
+
+ .s-info_title{
+   margin-bottom: 30px;
+ }
+}
+
+@media screen and (max-width:740px){
+ .info li{
+   flex-basis: 100%;
+ }
+
+ .ul1 {
+   text-align: center;
+ }
+ .s-welcome {
+   padding: 100px 0;
+ }
+
+}
