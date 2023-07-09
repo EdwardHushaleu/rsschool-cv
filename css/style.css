@@ -1,0 +1,12 @@
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: #1a1a1a;	
+}
+
+.navigation{
+ font-size: 0;
+ padding: 25px;
+}
